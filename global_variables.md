@@ -1,5 +1,10 @@
 # Global Variables (@@)
 
+1. [@@SERVERNAME](#servername)
+2. [@@SERVICENAME](#servicename)
+3. [@@LANGUAGE](#language)
+4. [@@VERSION](#version)
+
 ---
 
 #### @@SERVERNAME
@@ -16,6 +21,8 @@ Server Name
 name_of_the_server
 ```
 
+---
+
 #### @@SERVICENAME
 Returns the name of the Registry key under which SQL Server is running. @@SERVICENAME returns 'MSSQLSERVER' if the current instance is the default; this function returns the instance name if the current instance is a named instance.
 
@@ -29,6 +36,8 @@ Service Name
 MSSQLSERVER
 ```
 
+---
+
 #### @@LANGUAGE
 Returns the name of the language currently being used.
 
@@ -41,6 +50,8 @@ Language Name
 ------------------------------  
 us_english
 ```
+
+---
 
 #### @@VERSION
 Returns system and build information for the current installation of SQL Server.
